@@ -44,5 +44,13 @@ table{
     
 }
 .container table{
-    margin-top: 50px;
+    /*margin-top: 50px;
+    font-size: 20px;*/
+}
+.top_main{
+    margin-top: 70px;
+    margin-right: 37.5%;
+}
+.wrap_r{
+    text-align: center;
 }

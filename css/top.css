@@ -1,0 +1,30 @@
+h2{
+    border-bottom: 1px solid rgb(20, 150, 150);
+    font-size: 30px;
+    text-align: center;
+    color: rgb(20, 150, 150);
+    border-color: rgb(20, 150, 150);
+}
+table thead tr th{
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(20, 150, 150);
+    border-color: white;
+}
+table thead tr{
+    border-bottom: 1px solid aqua;
+    border-color: black;
+    
+}
+table tr{
+    border-bottom: 1px solid aqua;
+    border-color: white;
+    
+}
+table{
+    border-bottom: 1px solid rgb(20, 150, 150);
+    border-color: white;
+    
+    
+}

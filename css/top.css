@@ -6,7 +6,7 @@
 .container{
     margin: 0 auto;
     width: 1300px;
-    /* height: 80vh; */
+    /* height: 80vh;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
@@ -41,8 +41,9 @@ table{
     border-color: white;
 }
 .container table{
-    /*margin-top: 50px;
-    font-size: 20px;*/
+    margin-top: 50px;
+    font-size: 20px;
+    /**있는이유가 있나**/
 }
 .top_main{
     display: flex;

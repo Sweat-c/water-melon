@@ -12,13 +12,18 @@ ul, li {
     list-style: none;
 }
 
+body{
+    width: 1300px;
+    margin: 0 auto;
+}
+
 .genre {
-    padding-top: 30px;
-    margin-left: 100px;
+    margin-top: 30px;
+    
 }
 
 .genre h1 {
-    margin-left: 300px;
+    margin-left: 150px;
 }
 
 .genre_nav ul {
@@ -31,7 +36,7 @@ ul, li {
     text-align: center;
     margin-top: 50px;
     line-height: 45px;
-    margin-left: 300px;
+    margin-left: 150px;
 }
 
 .genre_nav ul a {

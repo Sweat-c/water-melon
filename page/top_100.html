@@ -5,7 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/top.css">
+    <link rel="stylesheet" href="../css/top.css">
+    <style>
+        .a {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        #header-left{
+            width: 120px;
+        }
+        .logo{
+            font-weight: bold;
+            font-size: 36px;
+        }
+        #header-right{
+            margin-top: 30px;
+        }
+        #header-right input{
+            width: 400px;
+            height: 40px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(26, 188, 156);
+            border: 1px solid black;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+        #header-right input::placeholder {
+            color: #fff;
+        }
+        .b{
+            display: flex;
+            justify-content: space-around;
+        }
+        .b-child{
+            font-weight: 550;
+            font-size: 22px;
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+        .b-child:hover{
+            color: rgb(26, 188, 156);
+        }
+    </style>
+    <div class="a">
+        <a href="./main.html">
+            <div id="header-left">
+                <div class="logo" style="color: rgb(26, 188, 156);">Water</div>
+                <div class="logo" style="color: rgb(22, 160, 133);">Melon</div>
+            </div>
+        </a>
+        <div id="header-right">
+            <input type="text" placeholder="검색어를 입력해 주세요.">
+        </div>
+    </div>
+    <hr style="margin-top: 20px;">
+    <div class="b">
+        <a href="./top_100.html"><div class="chart b-child">인기 차트</div></a>
+        <a href="./choisin1.html"><div class="new b-child">최신 음악</div></a>
+        <a href="./genre.html"><div class="genre b-child">장르 음악</div></a>
+    </div>
+    <hr>
 
 </head>
 <body>  

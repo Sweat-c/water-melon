@@ -5,7 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/choisin.css">
+    <link rel="stylesheet" href="../css/choisin.css">
+    <style>
+        .a {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        #header-left{
+            width: 120px;
+        }
+        .logo{
+            font-weight: bold;
+            font-size: 36px;
+        }
+        #header-right{
+            margin-top: 30px;
+        }
+        #header-right input{
+            width: 400px;
+            height: 40px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(26, 188, 156);
+            border: 1px solid black;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+        #header-right input::placeholder {
+            color: #fff;
+        }
+        .b{
+            display: flex;
+            justify-content: space-around;
+        }
+        .b-child{
+            font-weight: 550;
+            font-size: 22px;
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+        .b-child:hover{
+            color: rgb(26, 188, 156);
+        }
+    </style>
+    <div class="a">
+        <a href="./main.html">
+            <div id="header-left">
+                <div class="logo" style="color: rgb(26, 188, 156);">Water</div>
+                <div class="logo" style="color: rgb(22, 160, 133);">Melon</div>
+            </div>
+        </a>
+        <div id="header-right">
+            <input type="text" placeholder="검색어를 입력해 주세요.">
+        </div>
+    </div>
+    <hr style="margin-top: 20px;">
+    <div class="b">
+        <a href="./top_100.html"><div class="chart b-child">인기 차트</div></a>
+        <a href="./choisin1.html"><div class="new b-child">최신 음악</div></a>
+        <a href="./genre.html"><div class="genre b-child">장르 음악</div></a>
+    </div>
+    <hr>
 </head>
 <body>  
     <div class="container">
@@ -95,7 +162,7 @@
     
                                 <td><div class="wrap">
                                     <a href="" title="">
-                                        <img width="100" height="100" src="./img/optimize2-1.jfif" alt="">
+                                        <img width="100" height="100" src="../img/optimize2-1.jfif" alt="">
                                     </a>
                                 <td>	
                                             <a href="" title="닿아있자 재생">닿아있자</a>
@@ -122,7 +189,7 @@
     
                                 <td><div class="wrap">
                                     <a href="" title="">
-                                        <img width="100" height="100" src="./img/optimize2-2.jfif" alt="">
+                                        <img width="100" height="100" src="../img/optimize2-2.jfif" alt="">
                                     </a>
                                 <td>	
                                             <a href="" title="날개 재생">날개</a>
@@ -149,7 +216,7 @@
     
                                 <td><div class="">
                                     <a href="" title="ANTIFRAGILE">
-                                        <img width="100" height="100" src="./img/optimize2-3.jfif" alt="">
+                                        <img width="100" height="100" src="../img/optimize2-3.jfif" alt="">
                                     </a>
                                 <td>	
                                             <a href="" title="먹구름 재생">먹구름</a>
@@ -176,7 +243,7 @@
     
                                 <td><div class="">
                                     <a href="" title="Hype boy">
-                                        <img width="100" height="100" src="./img/optimize2-4.jfif" alt="">
+                                        <img width="100" height="100" src="../img/optimize2-4.jfif" alt="">
                                     </a>
                                 <td>	
                                             <a href="" title="Mermaid 재생">Mermaid</a>
@@ -203,7 +270,7 @@
     
                                 <td><div class="">
                                     <a href="" title="After LIKE">
-                                        <img width="100" height="100" src="./img/optimize2-5.jfif" alt="">
+                                        <img width="100" height="100" src="../img/optimize2-5.jfif" alt="">
                                     </a>
                                 <td>	
                                             <a href="" title="한 판 뜨자 재생">한 판 뜨자</a>

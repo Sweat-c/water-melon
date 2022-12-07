@@ -6,7 +6,8 @@
 }
 
 body{
-    
+    margin: 0 auto;
+    width: 1300px;
 }
 
 ul{
@@ -15,8 +16,7 @@ ul{
 
 .con{
     
-    margin: 0 auto;
-    width: 1300px;
+    
     
 }
 
